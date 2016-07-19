@@ -7,7 +7,7 @@
 
 Yet another page control for iOS, with awesome animation powered by Facebook `pop` library.
 
-<img src="https://github.com/RidgeCorn/RCPageControl/raw/master/RCPageControlDemo.gif" alt="RCPageControlDemo" width="320" height="568" />
+<img src="https://raw.githubusercontent.com/lukamarin/RCPageControl-obj-c/master/RCPageControlDemo.gif" alt="RCPageControlDemo" width="320" height="568" />
 
 
 **Any idea to make this more awesome? Please feel free to open an issue or make a PR.**
@@ -105,7 +105,7 @@ RCPageControl *pageControl = [RCPageControl initWithNumberOfPages:5];
 
 ```objective-c
 [pageControl setCurrentPageChangedBlock:^(RCPageControl *pageControl) {
-	//Code here
+    //Code here
 }];
 ```
 
@@ -172,4 +172,4 @@ The `Page Index Label`'s `Font`. Default is `[UIFont systemFontOfSize:0]`. The f
 
 ## License
 
-RCPageControl is available under the MIT license. See the [LICENSE](https://github.com/RidgeCorn/RCPageControl/blob/master/LICENSE) file for more info.
+RCPageControl is available under the MIT license. See the [LICENSE](https://github.com/lukamarin/RCPageControl-obj-c/blob/master/LICENSE) file for more info.
